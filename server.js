@@ -13,7 +13,7 @@ require("dotenv").config();
 const cors = require("cors");
 
 const app = express();
-const PORT = 8000;
+const PORT = "https://monicaservertest.onrender.com";
 const corsOption = {
   origin: "http://localhost:3000",
 };
