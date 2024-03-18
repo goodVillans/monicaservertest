@@ -1,5 +1,5 @@
 // Importing the Country model
-const Country = require("../models/modelsCountry");
+const Country = require("../Models/modelsCountry");
 
 // Controller function to fetch all countries
 const getAllCountries = async (req, res) => {
